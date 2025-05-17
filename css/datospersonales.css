@@ -1,0 +1,99 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagenes/MAQUETADO.jpg'); 
+}
+label {
+    font-weight: bold;
+}
+.navbar {
+    background-color: #a4c8f1 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+/* Tarjetas de formulario */
+.card {
+    background-color: #a4c8f1; 
+    padding: 15px;
+    margin-bottom: 15px;  /* Ajustado a 15px */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #007bff;
+}
+
+/* Título */
+h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 5px;  /* Reducir la separación entre el título y la tarjeta */
+    margin-top: 0;  /* Asegurarse de que no haya margen superior */
+}
+
+/* Tarjetas de formulario */
+.card {
+    background-color: #a4c8f1;
+    padding: 1px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border: 1px solid #007bff;
+}
+
+
+/* Estilos para el botón */
+.btn-primary {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;  /* Asegura que el texto sea blanco */
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-weight: bold;  /* Aplica negritas */
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;  /* Un color más oscuro al hacer hover */
+}
+
+/* Ajuste de columnas en formularios */
+.row .col-md-6 {
+    margin-bottom: 15px;
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 767px) {
+    .container {
+        padding: 5px;  /* Reducido el padding para pantallas pequeñas */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .field-container {
+        flex-direction: column;  /* Alinea campos en columna en pantallas pequeñas */
+        margin-bottom: 10px;
+    }
+
+    .field-container label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .field-container input, .field-container select {
+        width: 100%;
+        padding: 8px;
+    }
+}
+

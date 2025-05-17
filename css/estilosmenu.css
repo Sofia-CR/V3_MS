@@ -1,0 +1,78 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-image: url('http://localhost:8080/MedicaSur/imagenes/MAQUETADO.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que la imagen permanezca fija al hacer scroll */
+    color: #333; /* Color de texto general */
+}
+
+.navbar {
+    background-color: #a4c8f1; /* Color original de la barra */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+.navbar-brand img {
+    max-width: 150px; /* Mantener tamaño del logo */
+}
+
+.navbar-nav {
+    margin-left: auto; /* Mover menú a la derecha */
+}
+
+.nav-link {
+    font-size: 16px; /* Ajustar tamaño del texto del menú */
+    /*font-weight: 700; /* Negritas para mejor visibilidad */
+    color: #f8f9fa; /* Texto blanco */
+    transition: color 0.3s; /* Efecto suave al pasar el mouse */
+}
+
+.navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+h2 {
+    font-size: 28px; /* Tamaño más grande para el título */
+    font-weight: 700; /* Negritas para el título */
+    color: #007bff; /* Azul oscuro */
+    margin-bottom: 20px; /* Separar del contenido inferior */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Agregar sombra para destacarlo */
+}
+
+p {
+    font-size: 22px; /* Tamaño de letra legible para párrafos */
+    color: #07082c; /* Gris oscuro para un contraste agradable */
+    margin-top: 10px;
+    /*text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Sombra ligera para realce */
+}
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 767px) {
+    .container {
+        padding: 5px;  /* Reducido el padding para pantallas pequeñas */
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+
+    .field-container {
+        flex-direction: column;  /* Alinea campos en columna en pantallas pequeñas */
+        margin-bottom: 10px;
+    }
+
+    .field-container label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .field-container input, .field-container select {
+        width: 100%;
+        padding: 8px;
+    }
+}
+

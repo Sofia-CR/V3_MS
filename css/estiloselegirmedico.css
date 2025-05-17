@@ -1,0 +1,93 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+    background-image: url('http://localhost:8080/MedicaSur/imagenes/MAQUETADO.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+.navbar {
+    background-color: #a4c8f1 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+.nav-link {
+    font-size: 16px;
+    font-weight: normal; /* Cambiar a normal para evitar negritas */
+    color: #f8f9fa; /* Mantener el texto en color blanco */
+    transition: color 0.3s ease; /* Animación suave al pasar el mouse */
+}
+
+.nav-link:hover {
+    color: #ffff99; /* Color amarillo claro al pasar el mouse */
+}
+
+
+/* Frase "SELECCIONA TU MÉDICO" */
+h2 {
+    color: #007bff; /* Azul oscuro */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Sombra para resaltar */
+    font-weight: bold;
+}
+
+/* Tarjetas de los doctores */
+.card {
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    border-color: #007bff;
+}
+
+.card-text {
+    font-size: 18px;
+    color: #062554; /* Azul oscuro para el nombre de los doctores */
+    font-weight: bold;
+}
+
+.button {
+    padding: 15px 30px; 
+    font-size: 18px; 
+    color: white; /* Texto blanco */
+    background-color: #007bff; /* Fondo azul oscuro */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Indicador de clic */
+    text-align: center; /* Centrado del texto */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: 700; /* Texto en negritas */
+}
+
+.button:hover {
+        background-color: #007bff; /* Mantener el mismo color */
+        color: white; /* Mantener texto en blanco */
+    }
+    
+
+
+.card-img-top {
+    height: 250px; /* Aumentar la altura para que sean más grandes */
+    width: 100%; /* Asegurarnos de que se ajusten al ancho del contenedor */
+    object-fit: cover; /* Mantener proporciones sin deformar la imagen */
+    border-radius: 5px; /* Mantener bordes redondeados */
+}
+
+
+
+
+
+
+
+

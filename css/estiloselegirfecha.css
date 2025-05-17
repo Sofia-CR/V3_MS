@@ -1,0 +1,197 @@
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url('http://localhost:8080/MedicaSur/imagenes/MAQUETADO.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Estilos de la barra de navegación */
+.navbar {
+    background-color: #a4c8f1 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+
+/* Estilo de los títulos */
+h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    font-weight: bold;
+}
+
+/* Contenedor del calendario */
+#calendar {
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 900px;
+    min-height: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+
+/* Estilos del encabezado del calendario */
+.fc-toolbar {
+    background-color: #a4c8f1;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos de los nombres de los días */
+.fc-day-header {
+    background-color: #d9edf7;
+    color: #333;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/* Celdas del calendario */
+.fc-day {
+    border: 1px solid #ddd;
+    position: relative;
+}
+
+/* Hover para los días */
+.fc-day:hover {
+    background-color: #e8f5e9;
+}
+
+/* Día seleccionado */
+.fc-state-highlight {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Estilos para días bloqueados */
+.fc-day.ocupada {
+    background-color: gray !important;
+    color: #fff !important;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.fc-day.fecha-bloqueada {
+    background-color: #007bff !important;
+    color: #aaa;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+/* Ajuste dinámico para filas del calendario */
+.fc-row {
+    display: flex !important; 
+    flex-wrap: nowrap;
+}
+
+/* Oculta días de otros meses */
+.fc-other-month {
+    background-color: #f0f0f0 !important;
+    color: #ccc !important;
+}
+
+/* Día de hoy */
+.fc-today {
+    box-shadow: inset 0 0 0 3px #007bff !important;
+    background-color: transparent !important;
+}
+
+.fc-day-number {
+    color: #333; 
+    font-size: 14px; 
+    font-weight: bold; 
+    position: relative; /* Cambia de absolute a relative para evitar solapamiento */
+    top: 0; /* Ajusta la posición */
+    left: 0;
+    z-index: 1; /* Asegura que solo haya un número visible */
+}
+
+/* Números en días bloqueados */
+.fc-day.fecha-bloqueada .fc-day-number {
+    color: #aaa !important;
+    background-color: transparent;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+/* Hover para depuración visual */
+.fc-day-number:hover {
+    background-color: rgba(255, 255, 0, 0.2);
+}
+
+/* Días pasados */
+.fc-past {
+    color: #b6b2ae !important;
+    pointer-events: none;
+}
+
+.fc-past .fc-day-number {
+    color: #b6b2ae !important;
+    opacity: 0.8;
+}
+.button {
+    padding: 15px 30px; 
+    font-size: 18px; 
+    color: white; /* Texto blanco */
+    background-color: #007bff; /* Fondo azul oscuro */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Indicador de clic */
+    text-align: center; /* Centrado del texto */
+    text-decoration: none; /* Sin subrayado */
+    font-weight: 700; /* Texto en negritas */
+}
+
+.button:hover {
+        background-color: #007bff; /* Mantener el mismo color */
+        color: white; /* Mantener texto en blanco */
+    }
+
+    #selectedDate {
+        display: block; /* Se asegura que se muestre como bloque */
+        font-size: 18px;
+        color: #062554; /* Color azul principal */
+        font-weight: bold; /* Texto en negrita */
+        margin-top: 10px; /* Espaciado superior */
+        margin-bottom: 20px; /* Espaciado inferior */
+    }
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

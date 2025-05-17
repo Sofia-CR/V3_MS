@@ -1,0 +1,125 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    min-height: 100vh;
+    background-image: url('http://localhost:8080/MedicaSur/imagenes/MAQUETADO.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed;
+}
+
+.navbar {
+    background-color: #a4c8f1 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+.navbar-brand img {
+    max-width: 150px;
+}
+.content h2 {
+    color: #007bff; 
+    margin-bottom: 30px; 
+    font-weight: bold; 
+}
+
+.btn-secondary, .btn-primary {
+    font-weight: bold; 
+    background-color: #a4c8f1; 
+    color: #000000;
+    padding: 15px; 
+    border: none; 
+    border-radius: 5px; 
+    width: 100%;
+}
+.continue-button {
+    padding: 15px 30px; 
+    font-size: 18px; 
+    color: white; 
+    background-color: #007bff; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-align: center; 
+    text-decoration: none; 
+    font-weight: 700; 
+}
+
+.continue-button:hover, .continue-button:active, .continue-button:focus {
+    background-color: #007bff !important;
+    color: #ffffff !important;
+    outline: none;
+}
+
+.shift-buttons {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 15px; 
+    margin-bottom: 20px; 
+}
+.selected {
+    background-color: #6c757d !important; /* Gris */
+    color: #ffffff !important; /* Texto blanco */
+    cursor: not-allowed; /* Indicador de botón desactivado */
+    pointer-events: none; /* Deshabilitar clics adicionales */
+}
+.shift-buttons .btn {
+    font-weight: bold; 
+    background-color: #a4c8f1; /* Azul claro predeterminado */
+    color: #000000; /* Texto negro */
+    padding: 15px; /* Mantener el tamaño actual */
+    border: none; 
+    border-radius: 5px; /* Bordes redondeados */
+    width: 100%; /* Asegura el tamaño original */
+    cursor: pointer;
+    text-align: center;
+}
+
+.shift-buttons .btn:hover {
+    background-color: #90b8e3; /* Azul más claro al pasar el mouse */
+}
+
+.shift-buttons .btn.selected {
+    background-color: #6c757d !important; /* Gris al ser seleccionado */
+    color: #ffffff !important; /* Texto blanco */
+}
+.no-horarios-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+
+    grid-column: 1 / -1; 
+}
+
+.no-horarios-text {
+    font-weight: bold !important;
+    color: #dc3545 !important;
+    font-size: 1.1rem !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

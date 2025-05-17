@@ -1,0 +1,92 @@
+/* General */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagenes/MAQUETADO.jpg'); 
+}
+
+/* Navbar */
+.navbar {
+    background-color: #a4c8f1 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+/* Contenedor principal */
+.menu-container {
+    max-width: 1100px;
+    margin: 40px auto;
+    background: #a4c8f1; 
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border: 2px solid #007bff; /* Borde azul para marcar el rectángulo */
+}
+
+/* Título */
+h2 {
+    font-weight: 700;
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 30px;
+}
+/* Contenedor de las enfermedades */
+.labels-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+/* Estilo para las columnas */
+.left-labels, .right-labels {    
+    width: 48%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; 
+    transition: transform 0.3s;
+}
+
+
+/* Título de enfermedades */
+.enfermedades-title {
+    display: block;
+    font-size: 22px;
+    font-weight: bold;
+    color: #0056b3;
+    margin: 20px 0 10px;
+    text-transform: uppercase;
+}
+
+/* Listas */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Hover para las enfermedades */
+ul li:hover {
+    background: #a4c8f1;
+    color: #000000;
+    transform: scale(1.05);
+}
+
+/* Responsividad para pantallas pequeñas */
+@media (max-width: 767px) {
+    .container {
+        padding: 10px;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 14px;
+    }
+}
+

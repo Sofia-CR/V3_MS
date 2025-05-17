@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../imagenes/MAQUETADO.jpg');
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.login-container {
+    width: 500px; 
+    min-height: 450px; 
+    padding: 50px;
+    background-color: #a4c8f1;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.enlace {
+    display: inline-block; 
+    margin-top: 5px; 
+}
+
+.login-container img {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.login-container h2 {
+    color: #ffffff;
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+.form-label {
+    font-weight: 700;
+    color: #062554;
+}
+
+.btn-primary {
+    background-color: #0056b3;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+}
+a {
+    text-decoration: none; 
+    color: #062554;
+    font-weight: bold; 
+}
+
+a:hover {
+    color: #062554;
+}
+.enlace {
+    display: inline-block; /* Lo hace ocupar toda la línea */
+    margin-top: 15px; /* Espacio entre el botón y el enlace */
+    text-align: center; /* Centra el texto */
+}
+.input-group-text img {
+    vertical-align: middle; /* Centra verticalmente el ícono */
+    width: 20px; /* Mantener proporción */
+    height: auto; /* Ajuste automático para no distorsionar */
+    display: flex;
+    align-items: center;
+}
+.input-group-text img {
+    width: 20px; /* Mantener proporción */
+    height: 20px; /* Asegurar tamaño uniforme */
+    position: relative;
+    top: 4px; /* Mueve la imagen hacia abajo */
+}
+
+
+.input-group-text img {
+    width: 20px; /* Mantener proporción */
+    height: 20px; /* Asegurar que no se vea desproporcionado */
+}
+
+
+

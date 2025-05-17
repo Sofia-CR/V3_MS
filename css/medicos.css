@@ -1,0 +1,83 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white; /* Color de respaldo para el fondo */
+    background-image: url('http://localhost:8080/MedicaSur/imagenes/MAQUETADO.jpg'); /* Imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-attachment: fixed; /* Hace que el fondo permanezca fijo */
+    height: 100%; /* Expande la altura al 100% */
+    margin: 0; /* Quita cualquier margen externo */
+    padding: 0; /* Asegura que no haya espacio adicional */
+    overflow-x: hidden; /* Evita que aparezca un scroll horizontal */
+}
+
+html {
+    height: 100%; /* Asegura que el fondo cubra todo el documento */
+}
+
+.container {
+    position: relative; /* Posiciona el contenido sobre el fondo */
+    z-index: 10; /* Garantiza que el contenido esté visible sobre el fondo */
+    padding-top: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo semitransparente para el contenido */
+    border-radius: 10px; /* Bordes redondeados en el contenido */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar el contenedor */
+}
+
+.navbar {
+    background-color: #a4c8f1 !important;
+}
+
+.navbar-nav .nav-link {
+    color: #000 !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #fff !important;
+}
+
+h2 {
+    text-align: center;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.card {
+    border: 2px solid #007bff; /* Borde azul */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: white; /* Fondo blanco para las tarjetas */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Agrandar ligeramente al pasar el cursor */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Sombra más marcada */
+}
+
+.card-img-top {
+    width: 100%; /* Hace que ocupe todo el ancho del contenedor */
+    height: 200px; /* Define una altura fija para todas las imágenes */
+    object-fit: cover; /* Recorta la imagen para que llene el contenedor */
+    border-bottom: 2px solid #007bff; /* Línea decorativa debajo de la imagen */
+}
+
+h3 {
+    color: #007bff; /* Cambia el color a un tono naranja */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Agrega un efecto de sombra si lo deseas */
+}
+.card-text {
+    font-size: 18px;
+    color: #062554; /* Azul oscuro para el nombre de los doctores */
+    font-weight: bold;
+    text-align: center;
+}
+h5 {
+    font-size: 18px;
+    color: #007bff; /* Azul oscuro para el nombre de los doctores */
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); /* Agrega un efecto de sombra si lo deseas */
+}
+
+
