@@ -1,9 +1,9 @@
 <?php
-$servidor = "localhost";
-$usuario = "root"; 
+$servidor = "";
+$usuario = ""; 
 $clave = ""; 
-$baseDatos = "Hospital";
-$port = 3308; 
+$baseDatos = "";
+$port = ; 
 
 // Crear conexión
 $conexion = new mysqli($servidor, $usuario, $clave, $baseDatos, $port);
